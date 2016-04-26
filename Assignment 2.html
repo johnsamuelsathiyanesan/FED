@@ -1,31 +1,48 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
  <html>
  <head>
- 	<title>Ordered List </title>
+ 	<title>Form Output </title>
  </head> 
  <body>
- 
- <h1> Scrambled Eggs</h1>
- 
- <p> Eggs are one of my favourite foods. Here is a recipe for deliciously rich scrambled eggs. </p>
- 
- <h1> Ingredients</h1>
- 
- 	<ul>
- 		<li>2 eggs</li>
- 		<li>1tbs butter</li>
- 		<li>2tbs cream</li>
- 		
- 	</ul>
- 
-  
- <h1> Method</h1>
- 	<ol>
- 		<li>Melt butter in a frying pan over a medium heat</li>
- 		<li>Gently mix the eggs and cream in a bowl</li>
- 		<li>Once butter has melted add cream and eggs</li>
-			<li>Using a spatula fold the eggs from the edge of the pan to the center every 20 seconds(as if you are making an omelette)</li>
-		
- 		<li>When the eggs are still moist remove from the heat)it will continue to cook in the plate until served)</li>
- 	</ol>
+ <div>
+ <form border="2">
+
+Name :<input type ="text">
+Email:  :<input type ="text">
+
+	</form>
+	</div>
+
+
+
+<select name="john">
+How did you hear about us?<option value=“first option”>Google</option>
+<option value=“second option”>Yahoo</option>
+<option value="third option">Live</option>
+</select>
+<br>
+<p> Would you visit again?
+<br>
+<input type="Radio" name="decision" value="Yes">Male 
+<input type="Radio"  name="decision"value="No">NO
+<input type="Radio" name="decision" value="May be">Maybe 
+
+<p>Comments:</p>
+
+
+</form>
+
+	<textarea rows="5" cols="20">(Enter your comments)
+</textarea>
+<br>
+<input type="Checkbox" value ="Sign me up for email updates">Sign me up for email updates
+
+
+
+</input>
+
+<br>
+	<input type="submit" value="Submit Review">
+	</input>
  </body>
  </html>
